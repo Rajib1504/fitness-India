@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body {
@@ -8,12 +9,12 @@ body {
   font-variation-settings:
     "slnt" 0;
 }
-
-@font-face {
-  font-family:maiama;
-  src: url(./text/Miama.ttf);
+.font-style{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
-
 :root {
   --main0: rgb(0, 0, 0);
   --main1: rgb(34, 34, 34);
@@ -41,12 +42,16 @@ body {
 
 .continer-1 {
   /* border: 2px solid white; */
-  width: 70%;
+  width: 80%;
   margin: 2rem auto;
 }
 
 /* Nav style start */
-nav {
+nav{
+  border: 2px solid ;
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,17 +69,18 @@ nav {
   color: var(--maintext0);
   font-size: 1.2rem;
   font-weight: 600;
-  font-style: maiama;
+  font-style:"Maima";
 }
 /* menu style  */
 
 .navImges {
   border: 1px solid rgba(255, 255, 255, 0.281);
-  border-radius: 38px;
+  border-radius: 2rem;
   display: flex;
   justify-content: space-between;
   list-style: none;
   gap: 0.4rem;
+  
 }
 .navimg {
   color: var(--text0);
@@ -85,4 +91,72 @@ nav {
   border-radius: 30px;
   padding: 0.5rem 1.7rem;
   color: var(--text0);
+}
+/* Banner section style  */
+.banner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem auto;
+  color: var(--maintext0);
+}
+.bannner-1{
+  border: 2px solid var(--maintext0);
+  width: 36%;
+}
+/* text style  */
+.bnr-title{
+  font-size: 4rem;
+  font-weight: 900;
+}
+.bnr-txt{
+  font-size: 5rem;
+  font-family: "Dancing Script";
+  color: var(--btn0);
+}
+.bnr-des{
+  font-size: 0.7rem;
+  text-align: center;
+  color: var(--text0);
+}
+/* btn style  */
+.btn-bnr{
+  text-align: center;
+    margin: 1.4rem;
+}
+.btn1{
+  padding: 0.7rem 2rem;
+  margin-right: 0.7rem;
+  border-radius: 50px;
+}
+.color{
+  background-color: var(--btn0);
+  color: var(--maintext0);
+}
+.black{
+  background-color: black;
+  border: 1px solid var(--maintext0);
+  color: var(--maintext0);
+}
+
+/* img style  */
+
+/* vido numbers style  */
+.video-1{
+  border: 2px solid white;
+  width: 150px;
+  
+
+}
+  .elipces {
+    border: 2px solid var(--btn0);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--btn0);
+}
+.vid-no{
+  text-align: center;
+
 }
