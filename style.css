@@ -52,6 +52,7 @@ nav{
   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 .nav {
+  margin:2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,9 +102,10 @@ nav{
   margin: 1rem auto;
   color: var(--maintext0);
 }
-.bannner-1{
+.banner-1{
   border: 2px solid var(--maintext0);
-  width: 36%;
+  width: 387px;
+  height: 365px;
 }
 /* text style  */
 .bnr-title{
@@ -117,7 +119,7 @@ nav{
 }
 .bnr-des{
   font-size: 0.7rem;
-  text-align: center;
+  text-align: left;
   color: var(--text0);
 }
 /* btn style  */
@@ -141,13 +143,26 @@ nav{
 }
 
 /* img style  */
-
+.bnr-img{
+  filter: brightness(1.1) contrast(1.1);
+}
 /* vido numbers style  */
+.banner-2{
+  position: relative;
+}
 .video-1{
-  border: 2px solid white;
+  border: 2px solid rgba(48, 48, 48, 0.54);
   width: 150px;
-  
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 27px; */
+  border-radius: 8px;
+  position: absolute;
+  bottom: 23%;
+  left: -22%;
+  transform: translate(6px, 10px);
+  background-color: rgba(48, 48, 48, 0.54);
 }
   .elipces {
     border: 2px solid var(--btn0);
@@ -155,8 +170,32 @@ nav{
     height: 25px;
     border-radius: 50%;
     background-color: var(--btn0);
+    margin-right: 5px;
 }
 .vid-no{
   text-align: center;
+  margin: 1rem;
+}
 
+.d2{
+  margin-top: 4px;
+  text-align: center;
+}
+.video-2{
+  border-radius: 8px;
+  border: 2px solid  rgba(48, 48, 48, 0.54);
+  text-align: center;
+  padding: 1rem;
+  width: 135px;
+  background-color: rgba(48, 48, 48, 0.54);
+  height: 46px;
+  position: absolute;
+  top: 25%;
+  right: -15%;
+  transform: translate(10px, 10px);
+}
+.video-num{
+  font-weight: 900;
+  font-size: 2rem;
+  
 }
