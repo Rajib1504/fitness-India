@@ -38,19 +38,23 @@ body {
 
 body {
   background-color: var(--main0);
+  
 }
 
-.continer-1 {
+.Main-continer {
   /* border: 2px solid white; */
   width: 80%;
   margin: 2rem auto;
 }
-
-/* Nav style start */
-nav{
-  border: 2px solid ;
+.bc-color{
+  /* border: 2px solid ; */
   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
+section{
+  margin: 6rem 0;
+}
+
+/* Nav style start */
 .nav {
   margin:2rem;
   display: flex;
@@ -103,7 +107,7 @@ nav{
   color: var(--maintext0);
 }
 .banner-1{
-  border: 2px solid var(--maintext0);
+  /* border: 2px solid var(--maintext0); */
   width: 387px;
   height: 365px;
 }
@@ -187,7 +191,7 @@ nav{
   text-align: center;
   padding: 1rem;
   width: 135px;
-  background-color: rgba(48, 48, 48, 0.54);
+  background-color: rgba(48, 48, 48, 0.54); 
   height: 46px;
   position: absolute;
   top: 25%;
@@ -197,5 +201,80 @@ nav{
 .video-num{
   font-weight: 900;
   font-size: 2rem;
-  
 }
+/* next helth section style  */
+.helth-container{
+/* border: 2px solid white; */
+width: 60vw;
+margin: 0 auto;
+}
+.helth-txt{
+  /* border:2px solid white; */
+  margin: 0.7rem auto;
+  width: 27vw;
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+/* title style */
+.helth-title{
+  color: var(--maintext0);
+  font-weight: 900;
+  font-size: 2.4rem;
+  margin-bottom: 0.3rem;
+}
+/* helth des  */
+.helth-des{
+  color: var(--text0);
+  margin: 1rem;
+  font-size: 0.7rem;
+}
+
+/* img box style  */
+.helth-img-container{
+  /* border: 2px solid white; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 3px;
+  padding: 30px 0 10px 0
+}
+.img-text{
+  /* border: 2px solid rgb(212, 101, 101); */
+  width: 12vw;
+  margin-left: 22px;
+ 
+}
+.img{
+  /* border: 1px solid blue; */
+  width: 12vw;
+}
+.helth-photo{
+border-radius: 50%;
+}
+.text{
+  /* border: 1px solid green; */
+  text-align: center;
+  padding: 4px 0;
+  width: 12vw;
+}
+.hlth-title{
+  color: var(--maintext0);
+  font-size: 0.7rem;
+  margin-bottom: 3px;
+
+}
+.hlth-des{
+  color: var(--text0);
+  font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
