@@ -101,12 +101,12 @@ border-radius: 1.6rem;
 }
 
 .bnr-title{
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
       margin-bottom: 1rem;
 }
 .bnr-txt{
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Dancing Script";
   color: var(--btn0);
 }
@@ -214,7 +214,7 @@ margin: 0 auto;
   color: var(--maintext0);
   font-weight: 900;
   font-size: 2.4rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   margin-bottom: 0.3rem;
 }
 /* helth des  */
@@ -264,38 +264,57 @@ margin: 0 auto;
         font-size: 0.7rem;
         }
    /* running section start       */
-   .run-container{
-    border: 2px solid white;
-    border-radius: 10px;
-   }
+   
+.run-container {
+  /* border: 2px solid white; */
+  border-radius: 10px;
+  background-color: var(--main1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 2rem 0.6rem;
+  gap: 10vw;
+}
+
    .run-text-container{
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     width: 26rem;
    }
    .run-title{
     color: var(--maintext0);
     font-weight: 900;
-    font-size: 4rem;
-    margin: 0 0;
+    font-size: 3rem;
+    margin: 16px 12px
    }
    .run-des{
     color: var(--text0);
+    margin: 13px 3px;
+    font-size: 0.8rem;
 
    }
     .run-btn{
-      padding: 1rem 5rem;
+      padding: 0.8rem 4rem;
       font-weight: 700;
       font-size: 1rem;
-      margin: 1rem;
+      margin: 0rem;
   }
 
 /* img style      */
-.run-img{
-  border: 2px solid tomato;
+.photo {
+  background-image: url(./images/run.jpg);
+  min-height: 19vw;
+  background-position: 68% 30%;
+  min-width: 28vw;
+  border-radius: 16px;
+  background-repeat: no-repeat;
 }
-.photo{
-  width: 200px;
+
+/* traning section style  */
+.traning-des {
+  width: 38vw;
 }
+
 
 
 
@@ -358,6 +377,16 @@ width: 80vw;
   width: 100vw;
   margin: 0;
 }
+.run-btn {
+  margin: 0 6rem;
+}
+.run-container{
+  flex-direction: column;
+}
+.photo {
+  width: 74vw;
+  height: 27rem;
+}
 }
 
 
@@ -389,5 +418,11 @@ width: 80vw;
   text-align: center;
   margin: 0 auto;
 }
-  
+.run-container{
+  flex-direction: column;
+}
+.photo {
+  width: 74vw;
+  height: 27rem;
+}
 }
