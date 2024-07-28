@@ -371,7 +371,7 @@ traning img styles
 }
 /* calculator section  */
 .calculator{
-  border: 2px solid white;
+  /* border: 2px solid white; */
   background-color: var(--main1);
   display: flex;
   justify-content: space-around;
@@ -425,10 +425,41 @@ td{
     border-radius: 12px;
     border: 0;
 }
-
-
-
-
+.from-div{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.input-icon{
+  background-color: #c8c8c800;
+  border: 0;
+}
+.icon-a{
+  grid-column: 1/ span 2;
+  grid-row: 3;
+  color: var(--main2);
+}
+.icon-b{
+  color: var(--main2);
+}
+.traner-txt{
+  /* border: 2px solid white; */
+  width: 40vw;
+  text-align: center;
+  margin: 0 auto;
+}
+.trainer-title {
+  font-size: 2rem;
+}
+.trainer-des{
+  margin-left: 0;
+}
+.img-container{
+  border: 2px solid white;
+}
+.trainers{
+  width: 20vw;
+}
 
 
 
@@ -522,6 +553,9 @@ section.bmi-calculator {
   font-size: 0.7rem;
   max-width: 32rem;
 }
+.calculator{
+  flex-direction: column;
+}
 
 
 
@@ -570,5 +604,8 @@ section.bmi-calculator {
 .photo {
   width: 74vw;
   height: 27rem;
+}
+.calculator{
+  flex-direction: column;
 }
 }
