@@ -403,6 +403,9 @@ td{
 .box-2{
   margin-top: 2rem;
 }
+/* .input-txt-box{
+  border: 2px solid white;
+} */
 .img-title{
   margin: 0;
 }
@@ -416,7 +419,7 @@ td{
 .input-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 7px;
+  gap: 0.4rem;
   margin-bottom: 1rem;
 }
 .input-txt{
@@ -455,19 +458,149 @@ td{
   margin-left: 0;
 }
 .img-container{
-  border: 2px solid white;
+    /* border: 2px solid var(--text1); */
+    display: grid;
+    background-color: var(--main1);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+/* .t-img{
+  border: 2px solid blue;
+  border-radius: 8px;
 }
 .trainers{
   width: 20vw;
+} */
+.img-1{
+  height: 270px;
+  max-width: 326px;
+  width: auto;
+  background-image: url(./images/trainer1.png);
+  border: 0;
+  border-radius: 10px;
+  margin: 0.5rem;
+  background-position: 50% 3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-2{
+    height: 270px;
+    max-width: 326px;
+    width: auto;
+    background-image: url(./images/trainer2.png);
+    border: 0;
+    border-radius: 10px;
+    margin: 0.5rem;
+    background-position: 50% 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-3{
+  height: 270px;
+  max-width: 326px;
+  width: auto;
+  background-image: url(./images/trainer3.png);
+  border: 0;
+  border-radius: 10px;
+  margin: 0.5rem;
+  background-position: 50% 3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-4{
+  height: 270px;
+  max-width: 326px;
+  width: auto;
+  background-image: url(./images/trainer4.png);
+  border: 0;
+  border-radius: 10px;
+  margin: 0.5rem;
+  background-position: 50% 3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-5{
+  height: 270px;
+  max-width: 326px;
+  width: auto;
+  background-image: url(./images/trainer5.png);
+  border: 0;
+  border-radius: 10px;
+  margin: 0.5rem;
+  background-position: 50% 3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-6{
+  height: 270px;
+  max-width: 326px;
+  width: auto;
+  background-image: url(./images/trainer6.png);
+  border: 0;
+  border-radius: 10px;
+  margin: 0.5rem;
+  background-position: 50% 3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-container{
+  background-color: var(--main1);
+  margin-top: 5rem;
+  color: var(--maintext0);
+}
+.foot-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem auto;
+  gap: 8rem;
+  padding: 4rem;
+
+}
+.part-1{
+  border: 2px solid white;
+  width: 26vw;
+}
+.foot-title{
+  color: var(--btn0);
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.foot-des{
+  font-size: 0.7rem;
+  color: var(--main2);
 }
 
+.part-2{
+  border: 2px solid white;
+  width: 16vw;
+}
 
-
-
-
-
-
-
+.f-title{
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+.f-list{
+  list-style: none;
+  color: var(--main2);
+}
+.foot-list{
+  margin: 0.2rem;
+}
+.part-3{
+  border: 2px solid white;
+  width: 16vw;
+}
+.small{
+  color: var(--main2);
+  text-align: center;
+  font-size: 0.6rem;
+}
+hr{
+  height: 1px;
+  background-color: var(--text1)
+}
 
 
 
@@ -556,8 +689,26 @@ section.bmi-calculator {
 .calculator{
   flex-direction: column;
 }
+.traner-txt {
+  width: auto;
+}
 
-
+.img-1 ,.img-4{
+  display: none;
+}
+.img-container{
+  /* border: 2px solid var(--text1); */
+  display: grid;
+  background-color: var(--main1);
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0.3rem;
+}
+.img-2 ,.img-3,.img-5,.img-6{
+  margin: 0.3rem auto;
+}
+.foot-box{
+  grid-template-columns: 1fr;
+}
 
 
 
@@ -607,5 +758,9 @@ section.bmi-calculator {
 }
 .calculator{
   flex-direction: column;
+}
+.foot-box{
+  grid-column: 1/ span 2;
+  grid-row: 3;
 }
 }
