@@ -553,13 +553,13 @@ td{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 2rem auto;
-  gap: 8rem;
+  gap: 2rem;
   padding: 4rem;
 
 }
 .part-1{
   border: 2px solid white;
-  width: 26vw;
+  min-width: 26vw;
 }
 .foot-title{
   color: var(--btn0);
@@ -574,7 +574,7 @@ td{
 
 .part-2{
   border: 2px solid white;
-  width: 16vw;
+ min-width: 16vw;
 }
 
 .f-title{
@@ -590,7 +590,7 @@ td{
 }
 .part-3{
   border: 2px solid white;
-  width: 16vw;
+ min-width: 16vw;
 }
 .small{
   color: var(--main2);
@@ -706,8 +706,16 @@ section.bmi-calculator {
 .img-2 ,.img-3,.img-5,.img-6{
   margin: 0.3rem auto;
 }
-.foot-box{
-  grid-template-columns: 1fr;
+.foot-box {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 2rem auto;
+  /* gap: 8rem; */
+  width: 73vw;
+  padding: 4rem;
+}
+
+
 }
 
 
@@ -718,7 +726,8 @@ section.bmi-calculator {
 
 
 
-}
+
+
 
 
 
@@ -759,8 +768,16 @@ section.bmi-calculator {
 .calculator{
   flex-direction: column;
 }
-.foot-box{
-  grid-column: 1/ span 2;
-  grid-row: 3;
+.foot-box {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 2rem auto;
+  /* gap: 8rem; */
+  width: 73vw;
+  padding: 4rem;
 }
+.part-1{
+  grid-column: 1/ span 2;
+}
+
 }
