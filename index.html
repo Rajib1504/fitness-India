@@ -37,8 +37,8 @@
                             <span class=" bnr-txt">shape</span>
                             & stay healthy
                         </h1>
-                        <p class="bnr-des">A huge selection of health and fitness content, healthy recipes and
-                            transformation stories to help you get fit and stay fit!</p>
+                        <p class="bnr-des">
+                            Achieving and maintaining a healthy body involves regular exercise, a balanced diet, and sufficient sleep. Consistent physical activity and nutritious eating support overall well-being. Managing stress and avoiding harmful habits further enhance long-term health.</p>
                         <div class="btn-bnr">
                             <button class="btn1 color">Join Club Now!</button>
                             <button class="btn1 black">Download App</button>
@@ -47,7 +47,9 @@
                     <div class="banner-2">
                         <img class="bnr-img" src="./images/Images 2.png" alt="">
                         <div class="video-1">
-                            <div class="elipces"></div>
+                            <div class="video-img">
+                                <i class="fa-solid fa-circle-play clr-me"></i>
+                            </div>
                             <h3 class="vid-no">350+
                                 <p class="bnr-des d2">Video tutorial</p>
                             </h3>
@@ -101,7 +103,7 @@
                         </div>
                         <div class="img-text">
                             <div class="img">
-                                <img src="./images/image 5.png" alt="" class="helth-photo">
+                                <img src="./images/image 5.png" alt="" class="helth-photo change">
                             </div>
                             <div class="text">
                                 <h5 class="hlth-title">Sweat and Lose</h5>
@@ -128,7 +130,7 @@
                 </div>
             </section>
 
-            <section class="bmi-calculator">
+            <section class="bmi-calculator size-container">
                 <h1 class="bmi-title">BMI Calculator</h1>
                 <p class="bmi-des">Quickly determine your body mass index with this easy-to-use tool, helping you assess your weight category and make informed decisions about your health.</p>
             </section>
@@ -168,11 +170,11 @@
                 </div>
                 <div class="input-c">
                     <form class="input-container" action="action.php">
-                        <input type="text" class="input-txt" placeholder="Height/cm">
-                        <input type="text" class="input-txt" placeholder="Weight/kg">
-                        <input type="text" class="input-txt" placeholder="Age">
+                        <input type="text" class="input-txt half" placeholder="Height/cm">
+                        <input type="text" class="input-txt half" placeholder="Weight/kg">
+                        <input type="text" class="input-txt half" placeholder="Age">
                         <div class="from-div input-txt icon-b">
-                            <input type="text" class="input-icon" placeholder="Sex">
+                            <input type="text" class="input-icon half" placeholder="Sex">
                             <i class="fa-solid fa-angle-down"></i>
                         </div>
                         <div class="from-div input-txt icon-a">
@@ -180,7 +182,9 @@
                             <i class="fa-solid fa-angle-down"></i>
                         </div>
                     </form>
-                    <button class="btn1 color run-btn">Calculate</button>
+                    <div class="bmi-btn-container">
+                    <button class="btn1 color bmi-btn run-btn">Calculate</button>
+                </div>
                 </div>
             </div>
         </section>
